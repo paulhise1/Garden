@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA4807A9262DFE45006BE1E3 /* Spry in Frameworks */ = {isa = PBXBuildFile; productRef = AA4807A8262DFE45006BE1E3 /* Spry */; };
+		AA4807B2262DFE5B006BE1E3 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = AA4807B1262DFE5B006BE1E3 /* Quick */; };
+		AA4807BB262DFE76006BE1E3 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = AA4807BA262DFE76006BE1E3 /* Nimble */; };
+		AA4807C0262DFEA2006BE1E3 /* ColorCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4807BF262DFEA2006BE1E3 /* ColorCalculatorTests.swift */; };
+		AA4807CA262DFF03006BE1E3 /* GardenCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4807C7262DFF03006BE1E3 /* GardenCreator.swift */; };
+		AA4807CB262DFF03006BE1E3 /* PlantChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4807C8262DFF03006BE1E3 /* PlantChooser.swift */; };
+		AA4807CC262DFF03006BE1E3 /* ColorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4807C9262DFF03006BE1E3 /* ColorCalculator.swift */; };
+		AA4807D4262E00DC006BE1E3 /* PlantChooserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4807D3262E00DC006BE1E3 /* PlantChooserTests.swift */; };
+		AA4807DC262E013B006BE1E3 /* GardenCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4807DB262E013B006BE1E3 /* GardenCreatorTests.swift */; };
+		AA4807E5262E18CD006BE1E3 /* FakePlantChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4807E4262E18CD006BE1E3 /* FakePlantChooser.swift */; };
+		AA4807ED262E197E006BE1E3 /* FakeColorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4807EC262E197E006BE1E3 /* FakeColorCalculator.swift */; };
+		AA4807F5262E1F57006BE1E3 /* Spry_Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4807F4262E1F57006BE1E3 /* Spry_Helpers.swift */; };
+		AA9CCF2B262DFA0200C897A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CCF2A262DFA0200C897A1 /* AppDelegate.swift */; };
+		AA9CCF2D262DFA0200C897A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CCF2C262DFA0200C897A1 /* SceneDelegate.swift */; };
+		AA9CCF2F262DFA0200C897A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CCF2E262DFA0200C897A1 /* ViewController.swift */; };
+		AA9CCF32262DFA0200C897A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9CCF30262DFA0200C897A1 /* Main.storyboard */; };
+		AA9CCF34262DFA0300C897A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9CCF33262DFA0300C897A1 /* Assets.xcassets */; };
+		AA9CCF37262DFA0300C897A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9CCF35262DFA0300C897A1 /* LaunchScreen.storyboard */; };
+		AA9CCF42262DFA0300C897A1 /* GardenMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CCF41262DFA0300C897A1 /* GardenMakerTests.swift */; };
+		AA9CCF4D262DFA0300C897A1 /* GardenMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CCF4C262DFA0300C897A1 /* GardenMakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA9CCF3E262DFA0300C897A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9CCF1F262DFA0200C897A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9CCF26262DFA0200C897A1;
+			remoteInfo = GardenMaker;
+		};
+		AA9CCF49262DFA0300C897A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9CCF1F262DFA0200C897A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9CCF26262DFA0200C897A1;
+			remoteInfo = GardenMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA4807BF262DFEA2006BE1E3 /* ColorCalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCalculatorTests.swift; sourceTree = "<group>"; };
+		AA4807C7262DFF03006BE1E3 /* GardenCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GardenCreator.swift; sourceTree = "<group>"; };
+		AA4807C8262DFF03006BE1E3 /* PlantChooser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantChooser.swift; sourceTree = "<group>"; };
+		AA4807C9262DFF03006BE1E3 /* ColorCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCalculator.swift; sourceTree = "<group>"; };
+		AA4807D3262E00DC006BE1E3 /* PlantChooserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantChooserTests.swift; sourceTree = "<group>"; };
+		AA4807DB262E013B006BE1E3 /* GardenCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenCreatorTests.swift; sourceTree = "<group>"; };
+		AA4807E4262E18CD006BE1E3 /* FakePlantChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakePlantChooser.swift; sourceTree = "<group>"; };
+		AA4807EC262E197E006BE1E3 /* FakeColorCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeColorCalculator.swift; sourceTree = "<group>"; };
+		AA4807F4262E1F57006BE1E3 /* Spry_Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spry_Helpers.swift; sourceTree = "<group>"; };
+		AA9CCF27262DFA0200C897A1 /* GardenMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9CCF2A262DFA0200C897A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA9CCF2C262DFA0200C897A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA9CCF2E262DFA0200C897A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA9CCF31262DFA0200C897A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA9CCF33262DFA0300C897A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA9CCF36262DFA0300C897A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA9CCF38262DFA0300C897A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9CCF3D262DFA0300C897A1 /* GardenMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9CCF41262DFA0300C897A1 /* GardenMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenMakerTests.swift; sourceTree = "<group>"; };
+		AA9CCF43262DFA0300C897A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9CCF48262DFA0300C897A1 /* GardenMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9CCF4C262DFA0300C897A1 /* GardenMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenMakerUITests.swift; sourceTree = "<group>"; };
+		AA9CCF4E262DFA0300C897A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9CCF24262DFA0200C897A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9CCF3A262DFA0300C897A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4807BB262DFE76006BE1E3 /* Nimble in Frameworks */,
+				AA4807B2262DFE5B006BE1E3 /* Quick in Frameworks */,
+				AA4807A9262DFE45006BE1E3 /* Spry in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9CCF45262DFA0300C897A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA4807E3262E1891006BE1E3 /* TestFakes */ = {
+			isa = PBXGroup;
+			children = (
+				AA4807E4262E18CD006BE1E3 /* FakePlantChooser.swift */,
+				AA4807EC262E197E006BE1E3 /* FakeColorCalculator.swift */,
+			);
+			path = TestFakes;
+			sourceTree = "<group>";
+		};
+		AA9CCF1E262DFA0200C897A1 = {
+			isa = PBXGroup;
+			children = (
+				AA9CCF29262DFA0200C897A1 /* GardenMaker */,
+				AA9CCF40262DFA0300C897A1 /* GardenMakerTests */,
+				AA9CCF4B262DFA0300C897A1 /* GardenMakerUITests */,
+				AA9CCF28262DFA0200C897A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA9CCF28262DFA0200C897A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9CCF27262DFA0200C897A1 /* GardenMaker.app */,
+				AA9CCF3D262DFA0300C897A1 /* GardenMakerTests.xctest */,
+				AA9CCF48262DFA0300C897A1 /* GardenMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA9CCF29262DFA0200C897A1 /* GardenMaker */ = {
+			isa = PBXGroup;
+			children = (
+				AA4807C7262DFF03006BE1E3 /* GardenCreator.swift */,
+				AA4807C8262DFF03006BE1E3 /* PlantChooser.swift */,
+				AA4807C9262DFF03006BE1E3 /* ColorCalculator.swift */,
+				AA9CCF2A262DFA0200C897A1 /* AppDelegate.swift */,
+				AA9CCF2C262DFA0200C897A1 /* SceneDelegate.swift */,
+				AA9CCF2E262DFA0200C897A1 /* ViewController.swift */,
+				AA9CCF30262DFA0200C897A1 /* Main.storyboard */,
+				AA9CCF33262DFA0300C897A1 /* Assets.xcassets */,
+				AA9CCF35262DFA0300C897A1 /* LaunchScreen.storyboard */,
+				AA9CCF38262DFA0300C897A1 /* Info.plist */,
+			);
+			path = GardenMaker;
+			sourceTree = "<group>";
+		};
+		AA9CCF40262DFA0300C897A1 /* GardenMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA4807E3262E1891006BE1E3 /* TestFakes */,
+				AA4807DB262E013B006BE1E3 /* GardenCreatorTests.swift */,
+				AA4807D3262E00DC006BE1E3 /* PlantChooserTests.swift */,
+				AA4807BF262DFEA2006BE1E3 /* ColorCalculatorTests.swift */,
+				AA4807F4262E1F57006BE1E3 /* Spry_Helpers.swift */,
+				AA9CCF41262DFA0300C897A1 /* GardenMakerTests.swift */,
+				AA9CCF43262DFA0300C897A1 /* Info.plist */,
+			);
+			path = GardenMakerTests;
+			sourceTree = "<group>";
+		};
+		AA9CCF4B262DFA0300C897A1 /* GardenMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9CCF4C262DFA0300C897A1 /* GardenMakerUITests.swift */,
+				AA9CCF4E262DFA0300C897A1 /* Info.plist */,
+			);
+			path = GardenMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA9CCF26262DFA0200C897A1 /* GardenMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9CCF51262DFA0300C897A1 /* Build configuration list for PBXNativeTarget "GardenMaker" */;
+			buildPhases = (
+				AA9CCF23262DFA0200C897A1 /* Sources */,
+				AA9CCF24262DFA0200C897A1 /* Frameworks */,
+				AA9CCF25262DFA0200C897A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GardenMaker;
+			packageProductDependencies = (
+			);
+			productName = GardenMaker;
+			productReference = AA9CCF27262DFA0200C897A1 /* GardenMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA9CCF3C262DFA0300C897A1 /* GardenMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9CCF54262DFA0300C897A1 /* Build configuration list for PBXNativeTarget "GardenMakerTests" */;
+			buildPhases = (
+				AA9CCF39262DFA0300C897A1 /* Sources */,
+				AA9CCF3A262DFA0300C897A1 /* Frameworks */,
+				AA9CCF3B262DFA0300C897A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9CCF3F262DFA0300C897A1 /* PBXTargetDependency */,
+			);
+			name = GardenMakerTests;
+			packageProductDependencies = (
+				AA4807A8262DFE45006BE1E3 /* Spry */,
+				AA4807B1262DFE5B006BE1E3 /* Quick */,
+				AA4807BA262DFE76006BE1E3 /* Nimble */,
+			);
+			productName = GardenMakerTests;
+			productReference = AA9CCF3D262DFA0300C897A1 /* GardenMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA9CCF47262DFA0300C897A1 /* GardenMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9CCF57262DFA0300C897A1 /* Build configuration list for PBXNativeTarget "GardenMakerUITests" */;
+			buildPhases = (
+				AA9CCF44262DFA0300C897A1 /* Sources */,
+				AA9CCF45262DFA0300C897A1 /* Frameworks */,
+				AA9CCF46262DFA0300C897A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9CCF4A262DFA0300C897A1 /* PBXTargetDependency */,
+			);
+			name = GardenMakerUITests;
+			productName = GardenMakerUITests;
+			productReference = AA9CCF48262DFA0300C897A1 /* GardenMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9CCF1F262DFA0200C897A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AA9CCF26262DFA0200C897A1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AA9CCF3C262DFA0300C897A1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AA9CCF26262DFA0200C897A1;
+					};
+					AA9CCF47262DFA0300C897A1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AA9CCF26262DFA0200C897A1;
+					};
+				};
+			};
+			buildConfigurationList = AA9CCF22262DFA0200C897A1 /* Build configuration list for PBXProject "GardenMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA9CCF1E262DFA0200C897A1;
+			packageReferences = (
+				AA4807A7262DFE45006BE1E3 /* XCRemoteSwiftPackageReference "spry" */,
+				AA4807B0262DFE5B006BE1E3 /* XCRemoteSwiftPackageReference "Quick" */,
+				AA4807B9262DFE76006BE1E3 /* XCRemoteSwiftPackageReference "Nimble" */,
+			);
+			productRefGroup = AA9CCF28262DFA0200C897A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9CCF26262DFA0200C897A1 /* GardenMaker */,
+				AA9CCF3C262DFA0300C897A1 /* GardenMakerTests */,
+				AA9CCF47262DFA0300C897A1 /* GardenMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA9CCF25262DFA0200C897A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9CCF37262DFA0300C897A1 /* LaunchScreen.storyboard in Resources */,
+				AA9CCF34262DFA0300C897A1 /* Assets.xcassets in Resources */,
+				AA9CCF32262DFA0200C897A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9CCF3B262DFA0300C897A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9CCF46262DFA0300C897A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA9CCF23262DFA0200C897A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9CCF2F262DFA0200C897A1 /* ViewController.swift in Sources */,
+				AA9CCF2B262DFA0200C897A1 /* AppDelegate.swift in Sources */,
+				AA9CCF2D262DFA0200C897A1 /* SceneDelegate.swift in Sources */,
+				AA4807CA262DFF03006BE1E3 /* GardenCreator.swift in Sources */,
+				AA4807CB262DFF03006BE1E3 /* PlantChooser.swift in Sources */,
+				AA4807CC262DFF03006BE1E3 /* ColorCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9CCF39262DFA0300C897A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9CCF42262DFA0300C897A1 /* GardenMakerTests.swift in Sources */,
+				AA4807E5262E18CD006BE1E3 /* FakePlantChooser.swift in Sources */,
+				AA4807D4262E00DC006BE1E3 /* PlantChooserTests.swift in Sources */,
+				AA4807C0262DFEA2006BE1E3 /* ColorCalculatorTests.swift in Sources */,
+				AA4807ED262E197E006BE1E3 /* FakeColorCalculator.swift in Sources */,
+				AA4807F5262E1F57006BE1E3 /* Spry_Helpers.swift in Sources */,
+				AA4807DC262E013B006BE1E3 /* GardenCreatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9CCF44262DFA0300C897A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9CCF4D262DFA0300C897A1 /* GardenMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA9CCF3F262DFA0300C897A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9CCF26262DFA0200C897A1 /* GardenMaker */;
+			targetProxy = AA9CCF3E262DFA0300C897A1 /* PBXContainerItemProxy */;
+		};
+		AA9CCF4A262DFA0300C897A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9CCF26262DFA0200C897A1 /* GardenMaker */;
+			targetProxy = AA9CCF49262DFA0300C897A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA9CCF30262DFA0200C897A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9CCF31262DFA0200C897A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA9CCF35262DFA0300C897A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9CCF36262DFA0300C897A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA9CCF4F262DFA0300C897A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA9CCF50262DFA0300C897A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA9CCF52262DFA0300C897A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNR2DV3S8Q;
+				INFOPLIST_FILE = GardenMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mediumTall.GardenMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA9CCF53262DFA0300C897A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNR2DV3S8Q;
+				INFOPLIST_FILE = GardenMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mediumTall.GardenMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA9CCF55262DFA0300C897A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNR2DV3S8Q;
+				INFOPLIST_FILE = GardenMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mediumTall.GardenMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenMaker.app/GardenMaker";
+			};
+			name = Debug;
+		};
+		AA9CCF56262DFA0300C897A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNR2DV3S8Q;
+				INFOPLIST_FILE = GardenMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mediumTall.GardenMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenMaker.app/GardenMaker";
+			};
+			name = Release;
+		};
+		AA9CCF58262DFA0300C897A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNR2DV3S8Q;
+				INFOPLIST_FILE = GardenMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mediumTall.GardenMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GardenMaker;
+			};
+			name = Debug;
+		};
+		AA9CCF59262DFA0300C897A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNR2DV3S8Q;
+				INFOPLIST_FILE = GardenMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mediumTall.GardenMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GardenMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA9CCF22262DFA0200C897A1 /* Build configuration list for PBXProject "GardenMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9CCF4F262DFA0300C897A1 /* Debug */,
+				AA9CCF50262DFA0300C897A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9CCF51262DFA0300C897A1 /* Build configuration list for PBXNativeTarget "GardenMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9CCF52262DFA0300C897A1 /* Debug */,
+				AA9CCF53262DFA0300C897A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9CCF54262DFA0300C897A1 /* Build configuration list for PBXNativeTarget "GardenMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9CCF55262DFA0300C897A1 /* Debug */,
+				AA9CCF56262DFA0300C897A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9CCF57262DFA0300C897A1 /* Build configuration list for PBXNativeTarget "GardenMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9CCF58262DFA0300C897A1 /* Debug */,
+				AA9CCF59262DFA0300C897A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA4807A7262DFE45006BE1E3 /* XCRemoteSwiftPackageReference "spry" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://stash.hq.groundspeak.biz/scm/mob/spry.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.4;
+			};
+		};
+		AA4807B0262DFE5B006BE1E3 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+		AA4807B9262DFE76006BE1E3 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA4807A8262DFE45006BE1E3 /* Spry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA4807A7262DFE45006BE1E3 /* XCRemoteSwiftPackageReference "spry" */;
+			productName = Spry;
+		};
+		AA4807B1262DFE5B006BE1E3 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA4807B0262DFE5B006BE1E3 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		AA4807BA262DFE76006BE1E3 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA4807B9262DFE76006BE1E3 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA9CCF1F262DFA0200C897A1 /* Project object */;
+}
